@@ -16,7 +16,7 @@ import java.util.Date;
 @Data
 @Document
 public class MemberReadHistory {
-
+    //    文档对象的ID域添加@Id注解，需要检索的字段添加@Indexed注解。
     @Id
     private String id;
     @Indexed
